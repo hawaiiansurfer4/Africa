@@ -29,6 +29,7 @@
 		C4C97F8D286CECDB00A75DA8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C97F8C286CECDB00A75DA8 /* MapView.swift */; };
 		C4C97F8F286CECE600A75DA8 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C97F8E286CECE600A75DA8 /* GalleryView.swift */; };
 		C4C97F91286CECF700A75DA8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C97F90286CECF700A75DA8 /* MainView.swift */; };
+		C4C97F94286CF13300A75DA8 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C97F93286CF13300A75DA8 /* CoverImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		C4C97F8C286CECDB00A75DA8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		C4C97F8E286CECE600A75DA8 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		C4C97F90286CECF700A75DA8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C4C97F93286CF13300A75DA8 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		C4C97F5A286CDF4600A75DA8 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				C4C97F92286CF12300A75DA8 /* View */,
 				C4C97F87286CEBA700A75DA8 /* Info.plist */,
 				C4C97F7E286CE53200A75DA8 /* Data */,
 				C4C97F69286CE4D900A75DA8 /* Video */,
@@ -145,6 +148,14 @@
 				C4C97F90286CECF700A75DA8 /* MainView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		C4C97F92286CF12300A75DA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4C97F93286CF13300A75DA8 /* CoverImageView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				C4C97F5E286CDF4600A75DA8 /* ContentView.swift in Sources */,
 				C4C97F91286CECF700A75DA8 /* MainView.swift in Sources */,
+				C4C97F94286CF13300A75DA8 /* CoverImageView.swift in Sources */,
 				C4C97F8D286CECDB00A75DA8 /* MapView.swift in Sources */,
 				C4C97F5C286CDF4600A75DA8 /* AfricaApp.swift in Sources */,
 				C4C97F8B286CECCA00A75DA8 /* VideoListView.swift in Sources */,
